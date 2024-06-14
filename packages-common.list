@@ -1,9 +1,12 @@
 christian-kohler.path-intellisense
 coenraads.bracket-pair-colorizer-2
 eamodio.gitlens
+dbaeumer.vscode-eslint
 esbenp.prettier-vscode
 humao.rest-client
 mongodb.mongodb-vscode
 ms-azuretools.vscode-docker
 redhat.vscode-yaml
 sonarsource.sonarlint-vscode
+
+formulahendry.auto-close-tag
