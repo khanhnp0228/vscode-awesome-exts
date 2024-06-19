@@ -4,8 +4,6 @@ eamodio.gitlens
 dbaeumer.vscode-eslint
 esbenp.prettier-vscode
 humao.rest-client
-mongodb.mongodb-vscode
-ms-azuretools.vscode-docker
 redhat.vscode-yaml
 sonarsource.sonarlint-vscode
 
