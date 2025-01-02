@@ -1,5 +1,4 @@
 christian-kohler.path-intellisense
-coenraads.bracket-pair-colorizer-2
 eamodio.gitlens
 dbaeumer.vscode-eslint
 esbenp.prettier-vscode
@@ -8,3 +7,6 @@ redhat.vscode-yaml
 sonarsource.sonarlint-vscode
 vscode-icons-team.vscode-icons
 formulahendry.auto-close-tag
+
+ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-ssh
