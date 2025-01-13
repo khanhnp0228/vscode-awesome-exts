@@ -1,7 +1,8 @@
 MehediDracula.php-namespace-resolver
+neilbrayfield.php-docblocker
+MehediDracula.php-constructor
+phproberto.vscode-php-getters-setters
 bmewburn.vscode-intelephense-client
 getpsalm.psalm-vscode-plugin
-zobo.php-intellisense
+hakcorp.php-awesome-snippets
 xdebug.php-debug
-xdebug.php-pack
-neilbrayfield.php-docblocker
