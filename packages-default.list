@@ -2,23 +2,20 @@ ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.remote-explorer
 ms-azuretools.vscode-docker
 
-mikestead.dotenv
-christian-kohler.path-intellisense
 eamodio.gitlens
-formulahendry.auto-close-tag
+mikestead.dotenv
+ms-vscode.makefile-tools
 vscode-icons-team.vscode-icons
-
 redhat.vscode-yaml
-mrmlnc.vscode-apache
-ahmadalli.vscode-nginx-conf
-redhat.ansible
-hashicorp.terraform
 
-dbaeumer.vscode-eslint
+christian-kohler.path-intellisense
+formulahendry.auto-close-tag
 esbenp.prettier-vscode
 inferrinizzard.prettier-sql-vscode
+dbaeumer.vscode-eslint
 humao.rest-client
 
-sonarsource.sonarlint-vscode
-
+mrmlnc.vscode-apache
+eiminsasete.apacheconf-snippets
+ahmadalli.vscode-nginx-conf
 
