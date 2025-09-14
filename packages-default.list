@@ -7,15 +7,20 @@ mikestead.dotenv
 ms-vscode.makefile-tools
 vscode-icons-team.vscode-icons
 redhat.vscode-yaml
+jock.svg
 
 christian-kohler.path-intellisense
 formulahendry.auto-close-tag
 esbenp.prettier-vscode
 inferrinizzard.prettier-sql-vscode
 dbaeumer.vscode-eslint
+usernamehw.errorlens
+streetsidesoftware.code-spell-checker
+wix.vscode-import-cost
 humao.rest-client
 
 mrmlnc.vscode-apache
 eiminsasete.apacheconf-snippets
 ahmadalli.vscode-nginx-conf
 
+christian-kohler.npm-intellisense
