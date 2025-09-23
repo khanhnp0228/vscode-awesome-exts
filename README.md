@@ -7,5 +7,5 @@
 code --list-extensions > vscode-extensions.list
 
 #import extensions from extensions.list
-cat vscode-extensions.list | xargs -L 1 code --install-extension
+cat vscode-extensions.list | xargs -L 1 code  --force --install-extension
 ```
