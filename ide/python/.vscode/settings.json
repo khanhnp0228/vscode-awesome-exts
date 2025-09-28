@@ -1,0 +1,199 @@
+{
+    // VSCode core
+    "workbench.startupEditor": "none",
+
+    // VScode font & display
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code, JetBrains Mono, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.tabSize": 4,
+    "editor.foldingStrategy": "indentation",
+
+    // Default format & auto save
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // "editor.formatOnSave": true,
+    // "editor.formatOnPaste": true,
+    // "editor.formatOnType": true,
+
+    // Prettier configuaration
+    "prettier.useTabs": false,
+    "prettier.tabWidth": 4,
+
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+
+    // VSCode suggestion
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    // "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
+    "editor.wordWrap": "on",
+
+    // 🌱 Git & Auto Save
+    "git.autofetch": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/__pycache__/**": true
+        // "**/venv/**": true,
+        //"**/.vscode": true,
+        //"**/.devcontainer": true
+        // "**/node_modules": true
+        // "**/vendor": true
+    },
+
+    // --- Python Core ---
+    "python.defaultInterpreterPath": "venv/bin/python",
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8.enabled": true,
+    "python.sortImports.args": ["--profile", "black"],
+
+    // --- Pylance ---
+    "python.languageServer": "Pylance",
+    "python.analysis.languageServerMode": "default",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.indexing": true,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "django",
+            "depth": 10,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "rolepermissions",
+            "depth": 10,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "guardian",
+            "depth": 10,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "rules",
+            "depth": 10,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "rest_framework",
+            "depth": 10,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "rest_framework_simplejwt",
+            "depth": 5,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "drf_spectacular",
+            "depth": 5,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "drf_spectacular_sidecar",
+            "depth": 5,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "corsheaders",
+            "depth": 3,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "celery",
+            "depth": 5,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "django_filters",
+            "depth": 5,
+            "includeAllSymbols": true
+        },
+    ],
+
+    // --- Django Support ---
+    "files.associations": {
+        "*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*.htm": "django-html"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+
+    // --- Environment Setup ---
+    "python.envFile": "${workspaceFolder}/.env",
+
+    // Exclude scan project
+    "files.watcherExclude": {
+        "**/__pycache__/**": true,
+        "**/env/**": true,
+        "**/venv/**": true,
+        "**/node_modules/**": true,
+        "**/.git/**": true,
+        "**/vendor/**": true,
+        "**/dist/**": true,
+        "**/storage/**": true,
+        "**/logs/**": true
+    },
+    "search.exclude": {
+        "**/__pycache__/**": true,
+        "**/env/**": true,
+        "**/venv/**": true,
+        "**/node_modules/**": true,
+        "**/.git/**": true,
+        "**/vendor/**": true,
+        "**/dist/**": true,
+        "**/storage/**": true,
+        "**/logs/**": true
+    },
+
+    "search.followSymlinks": false,
+    "search.useIgnoreFiles": true,
+
+    "typescript.tsserver.maxTsServerMemory": 8192,
+    "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+
+    // File extensions config
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    }
+}

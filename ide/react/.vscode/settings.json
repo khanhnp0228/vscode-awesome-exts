@@ -1,0 +1,88 @@
+{
+  // VSCode core
+    "workbench.startupEditor": "none",
+
+    // VScode font & display
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code, JetBrains Mono, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "editor.foldingStrategy": "indentation",
+
+    // Default format & auto save
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    // "editor.formatOnPaste": true,
+    // "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.organizeImports": true
+    },
+
+    // Prettier configuaration
+    "prettier.useTabs": false,
+    "prettier.tabWidth": 2,
+
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+
+    // VSCode suggestion
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    // "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
+    "editor.wordWrap": "on",
+
+    // 🌱 Git & Auto Save
+    "git.autofetch": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/node_modules": true
+    },
+    "files.eol": "\n",
+
+    // --- React Support ---
+    "files.associations": {
+      "*.js": "javascriptreact",
+      "*.jsx": "javascriptreact",
+      "*.ts": "typescriptreact",
+      "*.tsx": "typescriptreact"
+    },
+  
+
+  // Emmet hỗ trợ JSX
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  // ESLint
+  "eslint.enable": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "eslint.packageManager": "npm",
+  "eslint.run": "onSave",
+
+  // Typescript & JS
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Auto import
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifier": "relative",
+
+  // Prettier rules (override nếu có file prettier.config.js thì dùng file đó)
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.trailingComma": "es5",
+  "prettier.printWidth": 100
+}
